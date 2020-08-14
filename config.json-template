@@ -1,0 +1,7 @@
+{
+    "geoCodeAPI" : {
+        "apiURL": "https://www.mapquestapi.com/geocoding/v1/address",
+        "apiKey": "[YOUR API KEY HERE]"
+    },
+    "storeFileName": "store-locations.csv"
+}
