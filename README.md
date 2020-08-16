@@ -1,11 +1,12 @@
 # grove-collaborative-coding-challenge
 Coding Challenge for Grove Collaborative. It is a simple CLI Application for finding the nearest store from a database.
 
-## Installation and Setup
+## Installation
 To install this CLI, clone the repo to a new folder on your machine.
 If you do not have node and npm, install it [here](https://nodejs.org/en/download/).
 Once cloned, navigate to the directory and run ```npm install``` to install the required dependencies.
-Before running the program, open up the ```config.json-template``` file and add your ApiKey to the geoCodeAPI.apiKey section and rename the ```config.json-template``` to just ```config.json```.
+## Setup
+Before running the program, open up the ```config.json-template``` file and add your API key to the geoCodeAPI.apiKey section and rename the ```config.json-template``` to just ```config.json```.
 Once the config is setup, you can run the CLI either with ```node .``` or install it globally: ```npm install -g .``` and then run the ```find_store``` command to get started. To run the test suite run ```npm test```.
 
 ## Uninstall

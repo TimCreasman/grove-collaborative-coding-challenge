@@ -24,6 +24,7 @@ exports.getLngLat = function (location) {
         })
         .then(res => {
             resolve(res.data.results[0].locations[0].latLng)
-        });
+        })
+        .catch((res) => console.log(res.response.data));
     });
 }
